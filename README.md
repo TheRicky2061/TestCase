@@ -1,6 +1,6 @@
-# Project Title
+# User Story Test Case
 
-Test case for one of my user stories.
+Test case for one of my user stories. When creating a new project and inserting it into the database, a set of directories and subdirectories must be created. If the user that is creating a new project does not have a projects directory, it must be created. Furthermore, the project directory must also be created. Inside each project directory must exist the following subdirectories: images, documents, videos and voice memos.
 
 ## Getting Started
 
@@ -13,19 +13,15 @@ To Run these test cases you need to have the following:
 * python version 2 or 3 installed on your machine.
 * unittest module (installed by default)
 
-```
-Give examples
-```
 
 ### Installing
 
 No additional dependencies are required to run these unittest test cases. This python program is self contained and only uses libraries provided by python's pre-installed packages.
 
-### List of test cases.
+## List of test cases.
 
 * test_create_project_directory.py
 * test_create_user_directory.py
-* subfolders
 * test_is_number.py
 * test_user_has_no_folder.py
 * test_create_subfolders.py
@@ -33,7 +29,7 @@ No additional dependencies are required to run these unittest test cases. This p
 
 ## Running the tests
 
-To run the test, first make sure that you are inside the testing directory. To run a specific test, run the following command
+To run test, first make sure that you are inside the testing directory(The same directory this readme is in). To run a specific test, run the following command from the terminal.
 ```
 python -m unittest test.test_to_run
 ```
@@ -49,27 +45,20 @@ Ran 3 tests in 0.001s
 
 OK
 ```
+Each "dot"(.) before the separator represents a test case, if one of the test cases does not succeed, it will be replaced with an "F" if there's a failure or an "E" if there was an error running the test.
 
-
-
-
-### And coding style tests
-
-Explain what these tests test and why
-
+If you want to run every test case cuncurrently, type the following into the terminal:
 ```
-Give an example
+python -m unittest discover
 ```
+The output should look similar to the following:
+```
+.............
+----------------------------------------------------------------------
+Ran 13 tests in 0.002s
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+OK
+```
 
 ## Authors
 
