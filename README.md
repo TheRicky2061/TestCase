@@ -35,7 +35,7 @@ python -m unittest test.test_create_project_directory
 You should see the following message appear:
 '''
 ...
-----------------------------------------------------------------------
+ ----------------------------------------------------------------------
 Ran 3 tests in 0.001s
 
 OK
