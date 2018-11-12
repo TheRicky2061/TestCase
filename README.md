@@ -21,6 +21,15 @@ Give examples
 
 No additional dependencies are required to run these unittest test cases. This python program is self contained and only uses libraries provided by python's pre-installed packages.
 
+### List of test cases.
+
+* test_create_project_directory.py
+* test_create_user_directory.py
+* subfolders
+* test_is_number.py
+* test_user_has_no_folder.py
+* test_create_subfolders.py
+
 
 ## Running the tests
 
@@ -32,22 +41,17 @@ For Example:
 ```
 python -m unittest test.test_create_project_directory
 ```
-You should see the following message appear:
+If all tests pass the following message will appear:
 ```
 ...
- ----------------------------------------------------------------------
+----------------------------------------------------------------------
 Ran 3 tests in 0.001s
 
 OK
 ```
 
-### Break down into end to end tests
 
-Explain what these tests test and why
 
-```
-Give an example
-```
 
 ### And coding style tests
 
@@ -67,27 +71,7 @@ Add additional notes about how to deploy this on a live system
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Enrique Rodriguez 
 
