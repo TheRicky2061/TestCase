@@ -19,25 +19,19 @@ Give examples
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+No additional dependencies are required to run these unittest test cases. This python program is self contained and only uses libraries provided by python's pre-installed packages.
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+To run the test, first make sure that you are inside the testing directory. To run a specific test, run the following command
+```
+python -m unittest test.test_to_run
+```
+For Example:
+```
+python -m unittest test.test_create_project_directory
+```
 
 ### Break down into end to end tests
 
