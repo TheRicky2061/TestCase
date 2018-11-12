@@ -2,6 +2,14 @@
 
 Test case for one of my user stories. When creating a new project and inserting it into the database, a set of directories and subdirectories must be created. If the user that is creating a new project does not have a projects directory, it must be created. Furthermore, the project directory must also be created. Inside each project directory must exist the following subdirectories: images, documents, videos and voice memos.
 
+The user story says the following:
+```
+Como usuario deseo que la creación de mi proyecto reserve un espacio en el servidor para mis datos. 
+Tiempo estimado: 1.5 días
+Definición de completado: Cada proyecto tiene su propia región de almacenar data.
+Notas de implementación: Debe ser desde la misma aplicación.
+```
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -29,7 +37,7 @@ No additional dependencies are required to run these unittest test cases. This p
 
 ## Running the tests
 
-To run test, first make sure that you are inside the testing directory(The same directory this readme is in). To run a specific test, run the following command from the terminal.
+To run a test, first make sure that you are inside the testing directory(The same directory this readme is in). To run a specific test, run the following command from the terminal.
 ```
 python -m unittest test.test_to_run
 ```

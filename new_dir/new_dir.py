@@ -46,6 +46,13 @@ def create_user_directory(path, user):
 
 def user_has_no_folder(path, user = ''):
     ''' Returns true if the user does not have a projects folder of his/her own. '''
+
+    if type(path) is not str:
+        raise TypeError("Expected type 'str' for path, got type '{}'".format(path.__class__.__name__))
+    
+    if type(user) is not str:
+        raise TypeError("Expected type 'str' for user, got type '{}'".format(user.__class__.__name__))
+
     user_path = os.path.join(path, user)
     return not os.path.exists(user_path)
 

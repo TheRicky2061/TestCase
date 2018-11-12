@@ -3,19 +3,19 @@ import unittest
 
 class TestIsNumber(unittest.TestCase):
     
-    def test_1(self):
+    def test_digit_str(self):
         number = new_dir.is_number('1')
         self.assertTrue(number)
     
-    def test_2(self):
+    def test_word(self):
         number = new_dir.is_number('number')
         self.assertFalse(number)
     
-    def test_3(self):
+    def test_float(self):
         number = new_dir.is_number('3.4')
         self.assertFalse(number)
     
-    def test_4(self):
+    def test_number_str(self):
         number = new_dir.is_number('88')
         self.assertTrue(number)
 
