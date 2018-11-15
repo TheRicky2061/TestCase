@@ -32,7 +32,7 @@ No additional dependencies are required to run these unittest test cases. This p
 * test_user_has_no_folder.py
 * test_create_subfolders.py
 
-## Running the tests
+# Running the tests
 
 To run a test, first make sure that you are inside the "testing" directory(The same directory this readme is in). To run a specific test, run the following command from the terminal.
 ```
